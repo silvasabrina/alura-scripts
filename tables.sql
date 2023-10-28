@@ -2,13 +2,13 @@ CREATE DATABASE alura;
 USE alura;
 
 CREATE TABLE categoria (
-	id varchar(11) not null,
+    id varchar(11) not null,
     nome varchar(255) not null,
     primary key(id)
 );
 
 CREATE TABLE cursos (
-	id varchar(11) not null,
+    id varchar(11) not null,
     nome_do_curso varchar(255) not null,
     carga_horaria float,
     subcategoria_id varchar(11) not null,
@@ -17,7 +17,7 @@ CREATE TABLE cursos (
 );
 
 CREATE TABLE matriculas (
-	id varchar(11) not null,
+    id varchar(11) not null,
     user_id varchar(11) not null,
     curso_id varchar(11) not null,
     data_matricula date,
@@ -28,7 +28,7 @@ CREATE TABLE matriculas (
 );
 
 CREATE TABLE subcategoria (
-	id varchar(11) not null,
+    id varchar(11) not null,
     nome varchar(255) not null,
     categoria_id varchar(11) not null,
     primary key(id),
@@ -36,7 +36,7 @@ CREATE TABLE subcategoria (
 );
 
 CREATE TABLE usuarios (
-	id varchar(11) not null,
+    id varchar(11) not null,
     nome_completo varchar(255) not null,
     email varchar(30),
     data_nascimento date not null,
