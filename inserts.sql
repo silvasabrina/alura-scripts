@@ -6,7 +6,7 @@ VALUES
     
 INSERT INTO subcategoria (id, nome, categoria_id)
 VALUES
-	("xnd-wpv-hak", "Machine Learning", "sqi-eox-ouy"),
+    ("xnd-wpv-hak", "Machine Learning", "sqi-eox-ouy"),
     ("rcm-yfo-pzq", "Data Analytics", "sqi-eox-ouy"),
     ("pba-veg-knt","Big Data","sqi-eox-ouy"),
     ("iuh-drt-oml","Excel","sqi-eox-ouy"),
@@ -17,14 +17,14 @@ VALUES
     
 INSERT INTO cursos (id, nome_do_curso, carga_horaria, subcategoria_id)
 VALUES 
-	("iep-lzr-vtn", "Estatistica com R", 8.5, "pba-veg-knt"),
+    ("iep-lzr-vtn", "Estatistica com R", 8.5, "pba-veg-knt"),
     ("trd-nic-swx", "MongoDB", 5.5, "rcm-yfo-pzq"),
     ("uob-vpy-lmf", "Power BI", 10.0, "pba-veg-knt"),
     ("qsa-jxp-ryo", "Python com Data Science", 15.0, "xnd-wpv-hak"),
     ("nui-rfg-zec", "Tableau", 12.6, "vmi-hxz-wsn"),
     ("wlk-kxz-ohp", "Business Intelligence com Excel", 10.5, "iuh-drt-oml"),
     ("jmo-ytv-ewl", "Modelagem de dados", 13.0, "pba-veg-knt"),
-	("blx-rwe-yfo", "Excel", 13.5, "iuh-drt-oml"),
+    ("blx-rwe-yfo", "Excel", 13.5, "iuh-drt-oml"),
     ("spv-zyu-qro", "Explore o framework Angular", 12.5, "cpl-nws-yga"),
     ("dkt-giq-fle", "CSS Aprofunde em estilos", 8.5, "ylx-meq-fjo"),
     ("lhz-vdm-wtk", "Azure", 12.4, "bpk-gvc-riu"),
@@ -32,7 +32,7 @@ VALUES
 
 INSERT INTO usuarios (id, nome_completo, email, data_nascimento, cidade, estado)
 VALUES 
-	("gsi-pzc-qma", "Sabrina Silva", "sabrina.silva@gmail.com", "1997-05-06", "Sao Luiz", "Maranhao"),
+    ("gsi-pzc-qma", "Sabrina Silva", "sabrina.silva@gmail.com", "1997-05-06", "Sao Luiz", "Maranhao"),
     ("vok-kwz-dts", "Wesley Santos", "wesley.santos@gmail.com", "1998-07-16", "Aracaju", "Sergipe"),
     ("bqj-ufl-vex", "Igor Paiva", "igor.paiva@gmail.com", "1992-08-11", "Joao Pessoa", "Paraiba"),
     ("jla-iup-cqo", "Vivian Catão", "vivian.catao@gmail.com", "1990-11-02", "Garanhuns", "Pernambuco"),
@@ -47,7 +47,7 @@ VALUES
 
 INSERT INTO matriculas (id, user_id, curso_id)
 VALUES 
-	("lrz-vho-qcm", "roi-nwb-epk", "iep-lzr-vtn"),
+    ("lrz-vho-qcm", "roi-nwb-epk", "iep-lzr-vtn"),
     ("jdm-wun-koi", "roi-nwb-epk", "uob-vpy-lmf"),
     ("yap-oml-egu", "gsi-pzc-qma", "iep-lzr-vtn"),
     ("crj-nfy-wzo", "gsi-pzc-qma", "uob-vpy-lmf"),
@@ -70,7 +70,7 @@ VALUES
     ("mgo-kxc-wup", "mcv-qie-ygf", "qsa-jxp-ryo"),
     ("vok-kwz-dts", "bap-tvk-jhr", "nui-rfg-zec"),
     ("bqj-ufl-vex", "bap-tvk-jhr", "qsa-jxp-ryo"),
-	("jla-iup-cqo", "bap-tvk-jhr", "jmo-ytv-ewl"),
+    ("jla-iup-cqo", "bap-tvk-jhr", "jmo-ytv-ewl"),
     ("tfn-wvc-ors", "bap-tvk-jhr", "blx-rwe-yfo"),
     ("zqi-mgx-yfb", "bap-tvk-jhr", "uob-vpy-lmf");
     
