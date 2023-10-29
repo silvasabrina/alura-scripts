@@ -10,7 +10,7 @@ FROM usuarios u
   JOIN categoria ca ON ca.id = s.categoria_id 
 WHERE ca.nome = 'Data Science'
   AND s.nome != 'Excel' 
-  AND TIMESTAMPDIFF(YEAR, u.data_nascimento, CURDATE()) >=16
+  AND TIMESTAMPDIFF(YEAR, u.data_nascimento, CURDATE()) >= 16
 GROUP BY u.nome_completo, 
   u.estado, 
   u.email
